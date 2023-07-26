@@ -1,0 +1,132 @@
+/* style.css */
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    /* border: 2px dotted lightpink; */
+}
+
+
+/* BODY CLASS */
+
+body {
+    background-image: url('./images/background3.jpg');
+    background-repeat: round;    
+    min-height: 100vh;
+
+    margin: 3px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bdy {
+    background-color: rgba(0,0,0,.5);
+    flex-grow: 1;
+    color:white;
+    padding: 10px;
+    border: 2px solid rgba(255,241,34,0.5);
+    align-items: center;
+    vertical-align: middle;
+}
+
+p.intro {
+    text-indent: 20px;
+}
+
+/* IMAGE STYLES UNIVERSAL */
+.dish_selected,
+.dish {
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.dish {
+    width: 250px;
+    height: auto;
+}
+
+
+/* RECIPE CREDIT FOOTER STYLE */
+
+#disclaimer {
+    color: yellow;
+    text-align: center;
+    border: 1px solid rgba(255,241,34,0.5);
+    float: right;
+    font-style: italic;
+    font-size: 16px;
+    background-color: rgba(0,0,0,.5);
+}
+
+
+
+/* START HEADER STYLES */
+.headr_home,
+.headr1_style,
+.headr2-6_style {
+    color: white;
+    width: fit-content;
+    margin: 3px;
+}
+
+.headr1_style {
+    float: right;
+    border: 1px solid rgba(255,241,34,0.5);
+    font-size: 26px;
+}
+
+.headr2-6_style {
+    
+    padding: 3px;
+    width: fit-content;
+    
+}
+
+.headr_home {
+    font-size: 16px;
+    float: right;
+    margin: 8px;
+    color: yellow;
+    font-style: italic;
+}
+/* END HEADER STYLES */
+
+/*--------------------------------*/
+
+/* START LINK STYLES */
+a:link,
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: rgba(255,241,34,0.5)
+}
+/* END LINK STYLES */
+
+/* YIELD STYLE */
+
+h5.yield {
+    color: rgba(255,241,34,1);
+}
+
+
+/* LIST STYLES */
+
+.for_ingr {
+    /* background: linear-gradient(0.25turn,  rgb(218, 187, 12), 10%, rgba(0, 0, 0, 0)); */
+    margin-left: 3%;
+    width: 250px;
+    height: 15px;
+    color: yellow;
+}
+
+.box {
+    margin: 25px;
+    width: relative;
+}
