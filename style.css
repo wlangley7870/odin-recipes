@@ -20,6 +20,17 @@ body {
     flex-direction: column;
 }
 
+.bdy_index {
+ 
+    border: 2px solid white;
+    padding: 10px;
+    margin: auto;
+    display: inline;
+
+
+
+}
+
 .bdy {
     background-color: rgba(0,0,0,.5);
     flex-grow: 1;
@@ -46,6 +57,10 @@ p.intro {
     height: auto;
 }
 
+img:hover {
+    border: 1px solid yellow;
+}
+
 
 /* RECIPE CREDIT FOOTER STYLE */
 
@@ -62,7 +77,8 @@ p.intro {
 
 
 /* START HEADER STYLES */
-.headr_home,
+.headr_index,
+.headr_goHome,
 .headr1_style,
 .headr2-6_style {
     color: white;
@@ -83,13 +99,22 @@ p.intro {
     
 }
 
-.headr_home {
+.headr_goHome {
     font-size: 16px;
     float: right;
     margin: 8px;
     color: yellow;
     font-style: italic;
 }
+
+.headr_index {
+    font-size: 30px;
+    background-color: rgba(0,0,0,.5);
+    margin: auto;
+    color:rgba(255,241,34,0.75);
+    text-transform: uppercase;
+    border: 1px dashed yellow;
+    }
 /* END HEADER STYLES */
 
 /*--------------------------------*/
@@ -119,7 +144,6 @@ h5.yield {
 /* LIST STYLES */
 
 .for_ingr {
-    /* background: linear-gradient(0.25turn,  rgb(218, 187, 12), 10%, rgba(0, 0, 0, 0)); */
     margin-left: 3%;
     width: 250px;
     height: 15px;
